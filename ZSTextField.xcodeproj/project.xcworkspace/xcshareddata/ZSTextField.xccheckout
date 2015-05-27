@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>45C9985A-749B-493E-A464-5F9264B92D8A</string>
+	<key>IDESourceControlProjectName</key>
+	<string>ZSTextField</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>84869F8F53FF35108C36099DE83F9B5101BC3EFD</key>
+		<string>https://github.com/zhuiyi007/ZSTextField.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>ZSTextField.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>84869F8F53FF35108C36099DE83F9B5101BC3EFD</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/zhuiyi007/ZSTextField.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>84869F8F53FF35108C36099DE83F9B5101BC3EFD</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>84869F8F53FF35108C36099DE83F9B5101BC3EFD</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ZSTextField</string>
+		</dict>
+	</array>
+</dict>
+</plist>

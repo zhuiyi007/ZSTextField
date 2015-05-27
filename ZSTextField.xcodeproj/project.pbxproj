@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C24FD411B15A298008DEA09 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24FD401B15A298008DEA09 /* main.m */; };
+		3C24FD441B15A298008DEA09 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24FD431B15A298008DEA09 /* AppDelegate.m */; };
+		3C24FD471B15A298008DEA09 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24FD461B15A298008DEA09 /* ViewController.m */; };
+		3C24FD4A1B15A298008DEA09 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3C24FD481B15A298008DEA09 /* Main.storyboard */; };
+		3C24FD4C1B15A298008DEA09 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C24FD4B1B15A298008DEA09 /* Images.xcassets */; };
+		3C24FD4F1B15A298008DEA09 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3C24FD4D1B15A298008DEA09 /* LaunchScreen.xib */; };
+		3C24FD5B1B15A298008DEA09 /* ZSTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24FD5A1B15A298008DEA09 /* ZSTextFieldTests.m */; };
+		3C24FD661B15A2D6008DEA09 /* ZSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24FD651B15A2D6008DEA09 /* ZSTextField.m */; };
+		3C24FD691B15B79C008DEA09 /* pushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C24FD681B15B79C008DEA09 /* pushViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C24FD551B15A298008DEA09 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C24FD331B15A298008DEA09 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C24FD3A1B15A298008DEA09;
+			remoteInfo = ZSTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C24FD3B1B15A298008DEA09 /* ZSTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZSTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C24FD3F1B15A298008DEA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C24FD401B15A298008DEA09 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C24FD421B15A298008DEA09 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3C24FD431B15A298008DEA09 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3C24FD451B15A298008DEA09 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3C24FD461B15A298008DEA09 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3C24FD491B15A298008DEA09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3C24FD4B1B15A298008DEA09 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C24FD4E1B15A298008DEA09 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3C24FD541B15A298008DEA09 /* ZSTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZSTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C24FD591B15A298008DEA09 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3C24FD5A1B15A298008DEA09 /* ZSTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZSTextFieldTests.m; sourceTree = "<group>"; };
+		3C24FD641B15A2D6008DEA09 /* ZSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZSTextField.h; sourceTree = "<group>"; };
+		3C24FD651B15A2D6008DEA09 /* ZSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZSTextField.m; sourceTree = "<group>"; };
+		3C24FD671B15B79C008DEA09 /* pushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pushViewController.h; sourceTree = "<group>"; };
+		3C24FD681B15B79C008DEA09 /* pushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = pushViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C24FD381B15A298008DEA09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C24FD511B15A298008DEA09 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C24FD321B15A298008DEA09 = {
+			isa = PBXGroup;
+			children = (
+				3C24FD3D1B15A298008DEA09 /* ZSTextField */,
+				3C24FD571B15A298008DEA09 /* ZSTextFieldTests */,
+				3C24FD3C1B15A298008DEA09 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C24FD3C1B15A298008DEA09 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C24FD3B1B15A298008DEA09 /* ZSTextField.app */,
+				3C24FD541B15A298008DEA09 /* ZSTextFieldTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C24FD3D1B15A298008DEA09 /* ZSTextField */ = {
+			isa = PBXGroup;
+			children = (
+				3C24FD421B15A298008DEA09 /* AppDelegate.h */,
+				3C24FD431B15A298008DEA09 /* AppDelegate.m */,
+				3C24FD451B15A298008DEA09 /* ViewController.h */,
+				3C24FD461B15A298008DEA09 /* ViewController.m */,
+				3C24FD641B15A2D6008DEA09 /* ZSTextField.h */,
+				3C24FD651B15A2D6008DEA09 /* ZSTextField.m */,
+				3C24FD481B15A298008DEA09 /* Main.storyboard */,
+				3C24FD4B1B15A298008DEA09 /* Images.xcassets */,
+				3C24FD4D1B15A298008DEA09 /* LaunchScreen.xib */,
+				3C24FD3E1B15A298008DEA09 /* Supporting Files */,
+				3C24FD671B15B79C008DEA09 /* pushViewController.h */,
+				3C24FD681B15B79C008DEA09 /* pushViewController.m */,
+			);
+			path = ZSTextField;
+			sourceTree = "<group>";
+		};
+		3C24FD3E1B15A298008DEA09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C24FD3F1B15A298008DEA09 /* Info.plist */,
+				3C24FD401B15A298008DEA09 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C24FD571B15A298008DEA09 /* ZSTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C24FD5A1B15A298008DEA09 /* ZSTextFieldTests.m */,
+				3C24FD581B15A298008DEA09 /* Supporting Files */,
+			);
+			path = ZSTextFieldTests;
+			sourceTree = "<group>";
+		};
+		3C24FD581B15A298008DEA09 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C24FD591B15A298008DEA09 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C24FD3A1B15A298008DEA09 /* ZSTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C24FD5E1B15A298008DEA09 /* Build configuration list for PBXNativeTarget "ZSTextField" */;
+			buildPhases = (
+				3C24FD371B15A298008DEA09 /* Sources */,
+				3C24FD381B15A298008DEA09 /* Frameworks */,
+				3C24FD391B15A298008DEA09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZSTextField;
+			productName = ZSTextField;
+			productReference = 3C24FD3B1B15A298008DEA09 /* ZSTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C24FD531B15A298008DEA09 /* ZSTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C24FD611B15A298008DEA09 /* Build configuration list for PBXNativeTarget "ZSTextFieldTests" */;
+			buildPhases = (
+				3C24FD501B15A298008DEA09 /* Sources */,
+				3C24FD511B15A298008DEA09 /* Frameworks */,
+				3C24FD521B15A298008DEA09 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C24FD561B15A298008DEA09 /* PBXTargetDependency */,
+			);
+			name = ZSTextFieldTests;
+			productName = ZSTextFieldTests;
+			productReference = 3C24FD541B15A298008DEA09 /* ZSTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C24FD331B15A298008DEA09 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = ZhuiYi;
+				TargetAttributes = {
+					3C24FD3A1B15A298008DEA09 = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					3C24FD531B15A298008DEA09 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = 3C24FD3A1B15A298008DEA09;
+					};
+				};
+			};
+			buildConfigurationList = 3C24FD361B15A298008DEA09 /* Build configuration list for PBXProject "ZSTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3C24FD321B15A298008DEA09;
+			productRefGroup = 3C24FD3C1B15A298008DEA09 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C24FD3A1B15A298008DEA09 /* ZSTextField */,
+				3C24FD531B15A298008DEA09 /* ZSTextFieldTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C24FD391B15A298008DEA09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C24FD4A1B15A298008DEA09 /* Main.storyboard in Resources */,
+				3C24FD4F1B15A298008DEA09 /* LaunchScreen.xib in Resources */,
+				3C24FD4C1B15A298008DEA09 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C24FD521B15A298008DEA09 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C24FD371B15A298008DEA09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C24FD691B15B79C008DEA09 /* pushViewController.m in Sources */,
+				3C24FD471B15A298008DEA09 /* ViewController.m in Sources */,
+				3C24FD441B15A298008DEA09 /* AppDelegate.m in Sources */,
+				3C24FD661B15A2D6008DEA09 /* ZSTextField.m in Sources */,
+				3C24FD411B15A298008DEA09 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C24FD501B15A298008DEA09 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C24FD5B1B15A298008DEA09 /* ZSTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C24FD561B15A298008DEA09 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C24FD3A1B15A298008DEA09 /* ZSTextField */;
+			targetProxy = 3C24FD551B15A298008DEA09 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C24FD481B15A298008DEA09 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C24FD491B15A298008DEA09 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3C24FD4D1B15A298008DEA09 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C24FD4E1B15A298008DEA09 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C24FD5C1B15A298008DEA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3C24FD5D1B15A298008DEA09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C24FD5F1B15A298008DEA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZSTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		3C24FD601B15A298008DEA09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZSTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		3C24FD621B15A298008DEA09 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZSTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSTextField.app/ZSTextField";
+			};
+			name = Debug;
+		};
+		3C24FD631B15A298008DEA09 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = ZSTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZSTextField.app/ZSTextField";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C24FD361B15A298008DEA09 /* Build configuration list for PBXProject "ZSTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C24FD5C1B15A298008DEA09 /* Debug */,
+				3C24FD5D1B15A298008DEA09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C24FD5E1B15A298008DEA09 /* Build configuration list for PBXNativeTarget "ZSTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C24FD5F1B15A298008DEA09 /* Debug */,
+				3C24FD601B15A298008DEA09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C24FD611B15A298008DEA09 /* Build configuration list for PBXNativeTarget "ZSTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C24FD621B15A298008DEA09 /* Debug */,
+				3C24FD631B15A298008DEA09 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C24FD331B15A298008DEA09 /* Project object */;
+}
