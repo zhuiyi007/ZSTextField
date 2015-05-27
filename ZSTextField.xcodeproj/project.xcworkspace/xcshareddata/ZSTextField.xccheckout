@@ -10,14 +10,14 @@
 	<string>ZSTextField</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>84869F8F53FF35108C36099DE83F9B5101BC3EFD</key>
+		<key>665D132B952CA89FFE59E42C101EF599A475AD5F</key>
 		<string>https://github.com/zhuiyi007/ZSTextField.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>ZSTextField.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>84869F8F53FF35108C36099DE83F9B5101BC3EFD</key>
+		<key>665D132B952CA89FFE59E42C101EF599A475AD5F</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +25,14 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>84869F8F53FF35108C36099DE83F9B5101BC3EFD</string>
+	<string>665D132B952CA89FFE59E42C101EF599A475AD5F</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>84869F8F53FF35108C36099DE83F9B5101BC3EFD</string>
+			<string>665D132B952CA89FFE59E42C101EF599A475AD5F</string>
 			<key>IDESourceControlWCCName</key>
 			<string>ZSTextField</string>
 		</dict>

@@ -77,19 +77,6 @@
 }
 
 
-/**
- *  superViewY -> windowY
- *
- *  @param Y superView的Y
- *
- *  @return window的Y
- */
-- (CGFloat)convertYToWindow:(float)Y
-{
-    CGPoint point = [self convertPoint:CGPointMake(0, Y) toView:ZSWindow];
-    return point.y * 0.5;
-}
-
 - (void)textFieldDidBeginEditing:(UITextField *)textField
 {
     //注册键盘通知
