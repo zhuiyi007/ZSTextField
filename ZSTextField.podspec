@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/zhuiyi007/ZSTextField.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/zhuiyi007/ZSTextField.git", :branch => “1.0.0”, :tag => "1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
